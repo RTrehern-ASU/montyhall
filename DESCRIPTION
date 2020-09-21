@@ -1,0 +1,17 @@
+Package: montyhall
+Title: Simulates the Monty Hall Problem
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Robert",
+           family = "Trehern",
+           role = c("aut", "cre"),
+           email = "robert.m.trehern@gmail.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package simulates the Monty Hall problem through a simulated game in which a player attempts to win a car hidden behind one of three doors. The Monty Hall Problem is a study in probability.  The mock game show contestant selects one of three closed doors in the hopes of winning a hidden car.  The other two doors hide goats.  At the start of the game, the contestant has a one in three chance of winning a car.  After the contestant selects a door, the host will then open one of the two goat doors. At this point in the game, the contestant has the choice to stay with their initial pick, or switch to the other unopened door.  The contestant makes their final pick by staying with the original choice or by switching doors.  Players who switch win 2/3 of the time; whereas, those who stay only win about 1/3 of the time. This package also contains a function allowing users to simulate thousands of rounds of the game.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to
+    pick a license
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Depends: dplyr
